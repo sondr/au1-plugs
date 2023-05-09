@@ -7,8 +7,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+import { nameof } from '@au1-plugs/common';
 import { inject, bindable, bindingMode, inlineView, customElement, DOM, TemplatingEngine } from 'aurelia-framework';
-import { nameof } from '../nameof';
 import { regularInputs } from '../interfaces';
 const triggerBehaviors = {
     blur: " & updateTrigger:'blur'"

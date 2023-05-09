@@ -1,5 +1,5 @@
+import { nameof } from '@au1-plugs/common';
 import { inject, bindable, bindingMode, inlineView, customElement, DOM, TemplatingEngine, View } from 'aurelia-framework';
-import { nameof } from '../nameof';
 import { DynamicInputType, IDynamicInputModel, ISelectOption, regularInputs } from '../interfaces';
 
 const triggerBehaviors = {
